@@ -3,7 +3,7 @@ package Main;
 import java.util.Scanner;
 
 import Implementacion.LogicaMetodos;
-import Implementacion.LogicaMetodos2;
+import Implementacion.LogicaMetodosDos;
 import Model.Empleados;
 
 public class Principal {
@@ -21,7 +21,7 @@ public class Principal {
 			Empleados empleado;
 				
 			LogicaMetodos imp = new LogicaMetodos();
-			LogicaMetodos2 imp2 = new LogicaMetodos2();
+			LogicaMetodosDos imp2 = new LogicaMetodosDos();
 
 		do {
 			System.out.println("Menu principal");
